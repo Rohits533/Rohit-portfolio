@@ -17696,37 +17696,37 @@ var xd = (...e) => e.filter((e, t, n) => !!e && e.trim() !== `` && n.indexOf(e) 
         d: `m6 6 12 12`,
         key: `d8bk6v`
     }]]),
-    Z = {
-        name: `Aaryan Mittal`,
-        firstName: `Aaryan`,
-        role: `Developer • Builder • Creator`,
-        tagline: `B.Tech CCE student shipping offline-first tools & game experiments — recently shipped DSAglazzer (React 19 + TypeScript + PWA + Extension) to 3 live projects.`,
-        status: `Recently shipped DSAglazzer`,
-        bio: [`I'm a B.Tech CCE student who enjoys taking ideas from "what if?" to something that actually works. I learn by building — and that's led me into web development, game development, AI, cybersecurity, and DSA, plus hackathons and plenty of experiments along the way.`, `I now have 3 shipped projects (DSAglazzer, Rural Guards, Birthday Wishes) and I'm keeping momentum — iterating on DSAglazzer's spaced repetition engine, practicing DSA daily (Arrays, Strings, Hash Maps, Linked Lists), exploring Roblox Studio & Unreal Engine, and experimenting with AI-assisted development.`],
-        education: `B.Tech — Computer & Communication Engineering`,
-        links: {
-            github: `https://github.com/InterestingAary`,
-            linkedin: `https://www.linkedin.com/in/aryan-mittal-3217b9381/`,
-            instagram: `https://www.instagram.com/ary.mit`,
-            youtube: `https://www.youtube.com/@AryMit-r5o`,
-            youtubeVlogs: `https://www.youtube.com/@Arymit_Vlogs`,
-            email: `interestingaari@gmail.com`
+   var Z = {
+    name: "Rohit Savan",
+    firstName: "Rohit",
+    role: "Developer • AI/ML • Full Stack",
+    tagline: "B.Tech CCE student shipping AI-powered tools & full-stack experiments — from student performance predictors to AI code reviewers.",
+    status: "Currently building AI Code Reviewer",
+    bio: [
+        "I'm a B.Tech CCE student who enjoys taking ideas from 'what if?' to something that actually works. I learn by building — and that's led me into web development, AI/ML, full-stack, and game development, plus plenty of experiments along the way.",
+        "I now have 6 shipped projects (AI Code Reviewer, Student Performance AI, AI News Summarizer, Weather App, and more) and I'm keeping momentum — building AI-powered tools, exploring game dev, and experimenting with new technologies."
+    ],
+    education: "B.Tech — Computer & Communication Engineering",
+    links: {
+        github: "https://github.com/Rohits533",
+        linkedin: "https://www.linkedin.com/in/rohit-savan-34465639b/",
+        email: "rohitsavan360@gmail.com"
+    },
+    creator: {
+        gaming: {
+            label: "Gaming",
+            handle: "@RohitGaming",
+            url: "",
+            note: "gaming content"
         },
-        creator: {
-            gaming: {
-                label: `Gaming`,
-                handle: `@AryMit-r5o`,
-                url: `https://www.youtube.com/@AryMit-r5o`,
-                note: `gaming content`
-            },
-            vlogs: {
-                label: `Vlogging`,
-                handle: `@Arymit_Vlogs`,
-                url: `https://www.youtube.com/@Arymit_Vlogs`,
-                note: `vlogs & life content`
-            }
+        vlogs: {
+            label: "Vlogging",
+            handle: "@RohitVlogs",
+            url: "",
+            note: "vlogs & life content"
         }
-    };
+    }
+};
 function Q({children: e, delay: t=0, y: n=24, className: r}) {
     return bd() ? (0, R.jsx)(`div`, {
         className: r,
@@ -17926,34 +17926,34 @@ function uf() {
     })
 }
 var df = [{
-        icon: `trophy`,
-        title: `Srujana 2026 Hackathon`,
-        subtitle: `1st Place — Open Innovation`,
-        text: `Won with Rural Guards, a rural safety & assistance platform built for farmers and fishermen.`,
-        year: `2026`,
-        featured: !0
-    }, {
-        icon: `sparkles`,
-        title: `Google Student Ambassador 2026`,
-        subtitle: `Gemini Program`,
-        text: `Selected as a Google Student Ambassador for the Gemini program, exploring AI, building student communities, and organizing campus activities around emerging technology.`,
-        year: `2026`,
-        featured: !0
-    }, {
-        icon: `rocket`,
-        title: `First Public Deployment`,
-        subtitle: `Birthday Wishes`,
-        text: `Shipped and deployed my first public web project — a personalized birthday wishing experience.`,
-        year: `2026`,
-        featured: !1
-    }, {
-        icon: `gamepad`,
-        title: `Game Development Journey`,
-        subtitle: `Ongoing Exploration`,
-        text: `An area I'm actively pursuing — building interactive experiences and experimenting with game development.`,
-        year: `Now`,
-        featured: !1
-    }],
+    icon: "rocket",
+    title: "10+ Projects Built",
+    subtitle: "AI & Full Stack",
+    text: "From AI tools to full-stack apps — shipped and deployed.",
+    year: "2026",
+    featured: true
+}, {
+    icon: "sparkles",
+    title: "6 Public Repositories",
+    subtitle: "Open Source",
+    text: "Open source code available on GitHub.",
+    year: "2026",
+    featured: true
+}, {
+    icon: "trophy",
+    title: "AI/ML Focus",
+    subtitle: "Core Expertise",
+    text: "Building AI-powered solutions and experiments.",
+    year: "2026",
+    featured: false
+}, {
+    icon: "target",
+    title: "First Public Deployment",
+    subtitle: "AI Code Reviewer",
+    text: "AI Code Reviewer — live on Vercel.",
+    year: "2026",
+    featured: false
+}];
     ff = {
         trophy: tf,
         sparkles: Qd,
@@ -18056,19 +18056,93 @@ function hf() {
         })
     })
 }
-var gf = [{
-    icon: Hd,
-    title: `Gaming`,
-    handle: Z.creator.gaming.handle,
-    url: Z.creator.gaming.url,
-    note: Z.creator.gaming.note
-}, {
-    icon: nf,
-    title: `Vlogging`,
-    handle: Z.creator.vlogs.handle,
-    url: Z.creator.vlogs.url,
-    note: Z.creator.vlogs.note
-}];
+var Gf = [
+    {
+        id: "ai-code-reviewer",
+        name: "AI Code Reviewer",
+        shipped: true,
+        status: "live",
+        category: "Web",
+        oneLiner: "Full-stack AI-powered code review tool — catches bugs, suggests improvements.",
+        accent: "#6C63FF",
+        glyph: "AC",
+        technologies: ["JavaScript", "Node.js", "AI", "Vercel"],
+        links: {
+            demo: "https://ai-code-reviewer-js.vercel.app",
+            github: "https://github.com/Rohits533/AI-Code-Reviewer-JS"
+        }
+    },
+    {
+        id: "student-performance-ai",
+        name: "Student Performance AI",
+        shipped: true,
+        status: "live",
+        category: "AI/ML",
+        oneLiner: "ML web app predicting student performance based on study hours, attendance, marks.",
+        accent: "#5b9dff",
+        glyph: "SP",
+        technologies: ["Python", "ML", "Flask", "Pandas"],
+        links: {
+            github: "https://github.com/Rohits533/student-performance-ai"
+        }
+    },
+    {
+        id: "ai-news-summarizer",
+        name: "AI News Summarizer",
+        shipped: true,
+        status: "live",
+        category: "AI/ML",
+        oneLiner: "News analyzer that summarizes articles and extracts key insights using NLP.",
+        accent: "#fbbf24",
+        glyph: "NS",
+        technologies: ["Python", "NLP", "Web Scraping"],
+        links: {
+            github: "https://github.com/Rohits533/ai-news-summarizer"
+        }
+    },
+    {
+        id: "weather-app",
+        name: "Weather App",
+        shipped: true,
+        status: "live",
+        category: "Web",
+        oneLiner: "Clean weather app with live API data — HTML, CSS, JavaScript.",
+        accent: "#00D4FF",
+        glyph: "WA",
+        technologies: ["HTML", "CSS", "JS", "API"],
+        links: {
+            github: "https://github.com/Rohits533/weather-app"
+        }
+    },
+    {
+        id: "ai-resume-builder",
+        name: "AI Resume Builder",
+        shipped: false,
+        status: "building",
+        category: "AI/ML",
+        oneLiner: "AI-powered resume builder with smart content suggestions.",
+        accent: "#6C63FF",
+        glyph: "RB",
+        technologies: ["Python", "AI", "NLP"],
+        links: {
+            github: "https://github.com/Rohits533/ai-resume-builder"
+        }
+    },
+    {
+        id: "mario-streamlit-game",
+        name: "Mario Streamlit Game",
+        shipped: false,
+        status: "building",
+        category: "Game",
+        oneLiner: "Interactive game built with Streamlit and Python.",
+        accent: "#f59e0b",
+        glyph: "MG",
+        technologies: ["Python", "Streamlit", "Game Dev"],
+        links: {
+            github: "https://github.com/Rohits533/mario-streamlit-game"
+        }
+    }
+];
 function _f() {
     let e = gf.filter(e => e.url);
     return e.length === 0 ? null : (0, R.jsx)(`section`, {
@@ -20658,39 +20732,34 @@ function yp() {
 }
 var bp = [{
     icon: ef,
-    label: `Started`,
-    text: `Learned to program — and fell in love with building software.`,
-    highlight: !1
+    label: "Started",
+    text: "Learned to program — and fell in love with building software.",
+    highlight: false
 }, {
     icon: Wd,
-    label: `Built`,
-    text: `Started creating real projects: websites, tools, experiments.`,
-    highlight: !1
+    label: "Built",
+    text: "Started creating real projects: websites, tools, experiments.",
+    highlight: false
 }, {
     icon: Vd,
-    label: `Competed`,
-    text: `Entered hackathons with teammates, building under pressure.`,
-    highlight: !1
+    label: "Competed",
+    text: "Entered hackathons with teammates, building under pressure.",
+    highlight: false
 }, {
     icon: tf,
-    label: `Won`,
-    text: `Srujana 2026 — 1st Place, Open Innovation, with Rural Guards.`,
-    highlight: !0
+    label: "Won",
+    text: "AI News Summarizer — NLP project.",
+    highlight: true
 }, {
     icon: Qd,
-    label: `Community`,
-    text: `Selected as Google Student Ambassador 2026 — Gemini Program.`,
-    highlight: !1
-}, {
-    icon: Yd,
-    label: `Shipped`,
-    text: `Deployed my first public website — Birthday Wishes.`,
-    highlight: !1
+    label: "Shipped",
+    text: "Deployed my first public web projects — AI tools and apps.",
+    highlight: false
 }, {
     icon: kd,
-    label: `Now`,
-    text: `Building larger projects. Learning DSA, game development, AI, and cybersecurity.`,
-    highlight: !1
+    label: "Now",
+    text: "Building larger projects. Learning AI, game dev, and full-stack.",
+    highlight: false
 }];
 function xp() {
     let e = bd(),
@@ -22648,18 +22717,18 @@ function jm() {
     })
 }
 var Mm = [{
-        title: `Programming`,
-        items: [`C`, `C++`, `JavaScript`, `TypeScript`, `Python`]
-    }, {
-        title: `Web`,
-        items: [`HTML`, `CSS`, `JavaScript`, `TypeScript`, `React`, `Vite`, `Tailwind CSS`, `Node.js`, `Express.js`, `REST APIs`, `PWA`]
-    }, {
-        title: `Game Engines`,
-        items: [`Roblox Studio`, `Unreal Engine (Basics)`]
-    }, {
-        title: `Tools`,
-        items: [`Git`, `GitHub`, `VS Code`, `APIs`, `Deployment`]
-    }],
+    title: "Programming",
+    items: ["Python", "JavaScript", "HTML", "CSS", "SQL"]
+}, {
+    title: "Web",
+    items: ["React", "Node.js", "Flask", "REST APIs", "Vercel", "Render"]
+}, {
+    title: "AI / ML",
+    items: ["Pandas", "Scikit-learn", "NLP", "Streamlit"]
+}, {
+    title: "Tools",
+    items: ["Git", "GitHub", "VS Code", "APIs", "Deployment"]
+}];
     Nm = [`Data Structures & Algorithms`, `LeetCode`, `NeetCode`, `Advanced TypeScript & React`, `PWA & Offline-First`, `Game Development`, `AI-assisted Development`, `Cybersecurity`],
     Pm = {
         platforms: [{
